@@ -1,0 +1,55 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="switchStyle">@style/switch_blue_theme</item>
+    	<item name="textAppearance">@style/TextAppearance</item>
+    </style>
+    
+   <style name="switch_green_theme">
+        <item name="track">@drawable/switch_track</item>
+        <item name="thumb">@drawable/switch_green_theme</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">5dip</item>
+        <item name="switchMinWidth">75dip</item>
+        <item name="switchPadding">5dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+    </style>
+    
+   <style name="switch_blue_theme">
+        <item name="track">@drawable/switch_track</item>
+        <item name="thumb">@drawable/switch_blue_theme</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">5dip</item>
+        <item name="switchMinWidth">75dip</item>
+        <item name="switchPadding">5dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+    </style>
+    
+   <style name="switch_maroon_theme">
+        <item name="track">@drawable/switch_track</item>
+        <item name="thumb">@drawable/switch_maroon_theme</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">5dip</item>
+        <item name="switchMinWidth">75dip</item>
+        <item name="switchPadding">5dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+    </style>
+
+</resources>

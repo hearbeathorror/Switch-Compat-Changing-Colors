@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwitchDemoChangingDrawableColors</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="maroon">Maroon</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+
+</resources>
